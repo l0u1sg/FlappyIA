@@ -4,7 +4,6 @@ import time
 import os
 import random
 
-os.environ["SDL_VIDEODRIVER"] = "dummy"
 WIN_WIDTH = 600
 WIN_HEIGHT = 800
 BIRD_IMG = [pygame.transform.scale2x(
